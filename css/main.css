@@ -1,0 +1,589 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #242B33;
+
+}
+
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+       
+}
+.containet{
+    margin: 0 auto;
+    width: 1920px;
+    
+}
+
+.header{
+    background: url('../img/FON.jpg') no-repeat center top / cover;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+
+
+.nav{
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+    font-size: 14px;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.menu li{
+    padding-right: 40px;
+    list-style-type: none;
+   
+    
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #D4C17F;
+    text-decoration: underline;
+}
+
+.title{
+    text-align: center;
+    margin-top: 225px;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #D4C17F;
+    width: 556px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+    
+}
+
+.contac{
+    display: flex;
+    justify-content: center;
+    margin-top: 340px;
+         
+}
+
+.maps{
+    font-family: 'Raleway';
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 136px;
+
+    
+}
+
+.icon{
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 194px;
+  
+}
+          
+
+.skills{
+    justify-content: space-between;
+    display: flex;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.skill-text{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.skill{
+    text-align: center;
+    width: 193px
+}
+
+.iconss{
+    
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+   
+
+.galery-title{
+    
+    margin-top: 120px;
+    color: #D4C17F;
+    font-family: 'Playfair Display', serif;
+    margin-left: auto;
+    margin-right: auto;   
+    max-width: 1200px;
+    
+}
+
+.galery{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 1200px;
+    
+}
+
+
+
+.imk{
+    
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    bottom: 50px;
+    left: 50px;  
+    width: 300px;
+    color: #fff;
+    
+
+}
+
+.images{
+    position: relative;
+}
+
+.mail{
+    border: 1px solid #242B33;
+    
+    
+    background: url('../img/FON2.jpg') no-repeat center top / cover;
+}
+
+.content{
+    
+    margin-top: 50px;
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;
+
+    
+}
+
+.title-text{
+    color: #D4C17F;
+    font-family: 'Playfair Display', serif;
+    margin-left: auto;
+    margin-right: auto;   
+    max-width: 1200px;
+    margin-top: 160px;
+}
+.text{
+    width: 535px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 35px;
+
+}
+
+.form{
+    
+    width: 600px;
+    height: 135px;
+    
+    
+}
+
+.mini-text{
+    
+    width: 255px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    
+    
+    
+    
+
+}
+
+.input{
+   
+    margin-right: 30px;
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+    opacity: 0.4;
+    color: #fff;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.btn{
+    
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    width: 257px;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+    background: #D4C17F;
+    color: #fff;
+    transition: all 0.5s ease;
+    
+          
+    
+}
+.btn:hover{
+    background: #1b1a14;;
+}
+.input:hover{
+    background:#D4C17F ;
+    border: none;
+    
+}
+.forma{
+    
+    width: 600px;
+    height: 135px;
+}
+
+.gogle-title{
+    color: #D4C17F;
+    font-family: 'Playfair Display', serif;
+    margin-left: auto;
+    margin-right: auto;   
+    max-width: 1200px;
+}
+
+.iconss{transition: all 0.5s ease;
+}
+
+
+.iconss:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+.footer{
+    background: #2D343C;
+   padding-top: 72px;
+}
+
+.box{
+   color: #fff;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+.adress{
+    margin-left: 150px;
+    text-align: left;
+    width: 239px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+
+.geo{
+    margin-left: 150px;
+    text-align: left;
+    width: 120px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+
+.foto{
+  
+    width: 184px;
+    height: 150px;
+}
+
+.ukraine{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 960px;
+
+
+        
+        
+    }
+
+   .title{
+       border: 2px solid green;
+       width: 600px;
+       margin-left: auto; 
+       margin-right: auto;      
+       
+       text-align: center;                  
+    }
+
+    .header{
+        width: auto;
+    }
+
+    
+    .galery{
+        width: auto;
+        padding-left: 25%;
+        border: 2px solid green;
+       
+      
+    }
+
+    .galery-title{
+        width: auto;
+        text-align: center;
+        border: 2px solid green;
+    }
+    .iconss{
+        margin-bottom: 20px;
+    }
+
+    .forma{
+        width: auto;
+        border: 2px solid green;
+    }
+
+    .box{
+        padding: 0px;
+        width: auto;
+        border: 2px solid green;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+	
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container{
+        width: 740px;          
+    }
+    .menu{
+        display: none;
+    }
+
+    .header{
+       
+       width: 100%;        
+    }
+
+    .forma{
+        height: auto;
+        text-align: center;
+    }
+
+    .input{
+        margin-bottom: 20px;
+    }
+
+    .mini-text{
+        display: none;
+    }
+
+    .btn{
+       margin-top: auto;
+       margin-right: 22px;
+    }
+
+    .geo{
+        margin: 0px;
+    }
+
+    .galery-title{
+        margin-left: 80px;
+    }
+
+    .galery{
+        padding-left: 20%;
+    }
+
+    .adress{
+     margin: auto;
+    }
+    
+     .maps{
+         margin: auto;
+         margin-bottom: 100px;
+     }
+
+     .icon{
+         margin: auto;
+         margin-left: 140px;
+         margin-bottom: 100px;
+     }
+
+    
+    .intro{
+        width: auto;
+    }
+    .title{
+        border: 2px solid green;
+        width: 600px;
+        margin-left: 15%; 
+              
+        
+        text-align: center;                  
+     }
+    
+
+    .skills{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .skill{
+        width: 100%;
+        margin-bottom: 30px;
+        border: 2px solid rgb(148, 7, 89);
+    }
+
+}
+
+
+/*Responsive*/
+
+
+
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container{
+        width: 540px;
+        border: 2px solid palevioletred;
+       
+        
+    }
+
+
+    .learn{
+        border: 2px solid green;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .style{
+        border: 2px solid rgba(197, 30, 8, 0.753);
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .mail{
+        border: 2px solid rgb(2, 0, 128);
+        width: 100%;
+        margin: auto;
+       
+    }
+
+    .galery{
+        padding: 0px;
+    }
+
+    .title{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin: 0px;
+        
+    }
+
+    .maps{
+        display: none;
+        
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .icons{
+        
+    }
+
+    .input{
+        width: 100%;
+    }
+
+    .btnt{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container{
+        width: 90%;
+    }
+
+    .iconss{
+        width: 90%;
+    }
+
+    .geo{
+        display: none;
+    }
+
+}
+
+.galery-title{
+    margin: auto;
+}
+
+    
+
+
+
+
+
