@@ -660,6 +660,10 @@ li a:hover{
     border: 2px solid palevioletred;
     width: 360px;
 }
+	
+.input{
+        border-radius: none;
+}
 
 
     
