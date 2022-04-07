@@ -210,7 +210,7 @@ li a:hover{
 }
 
 .form{
-    
+    padding: auto;
     width: 600px;
     height: 135px;
     
@@ -250,13 +250,14 @@ li a:hover{
     
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    width: 257px;
+    width: 255px;
     height: 50px;
     border: none;
     margin-top: 30px;
     background: #D4C17F;
     color: #fff;
     transition: all 0.5s ease;
+    text-align: center;
     
           
     
@@ -354,7 +355,7 @@ li a:hover{
     }
 
    .title{
-       border: 2px solid green;
+      
        width: 600px;
        margin-left: auto; 
        margin-right: auto;      
@@ -370,7 +371,7 @@ li a:hover{
     .galery{
         width: auto;
         padding-left: 25%;
-        border: 2px solid green;
+       
        
       
     }
@@ -378,7 +379,7 @@ li a:hover{
     .galery-title{
         width: auto;
         text-align: center;
-        border: 2px solid green;
+        
     }
     .iconss{
         margin-bottom: 20px;
@@ -386,13 +387,13 @@ li a:hover{
 
     .forma{
         width: auto;
-        border: 2px solid green;
+      
     }
 
     .box{
         padding: 0px;
         width: auto;
-        border: 2px solid green;
+        
         display: flex;
         justify-content: space-between;
     }
@@ -404,15 +405,24 @@ li a:hover{
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
 	.container{
-        width: 740px;          
+        width: 740px; 
+        border: 2px solid green;         
     }
     .menu{
         display: none;
     }
 
     .header{
-       
+       border: 2px solid red;
        width: 100%;        
+    }
+
+    .style{
+        border: 2px solid rgb(53, 129, 243);
+    }
+
+    .mail{
+        border: 2px solid rgb(143, 14, 64);
     }
 
     .forma{
@@ -465,7 +475,7 @@ li a:hover{
         width: auto;
     }
     .title{
-        border: 2px solid green;
+       
         width: 600px;
         margin-left: 15%; 
               
@@ -482,7 +492,7 @@ li a:hover{
     .skill{
         width: 100%;
         margin-bottom: 30px;
-        border: 2px solid rgb(148, 7, 89);
+        
     }
 
 }
@@ -496,44 +506,71 @@ li a:hover{
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
 	.container{
-        width: 540px;
-        border: 2px solid palevioletred;
+        width: 100%;
+      
        
         
+    }
+    .header{
+        width: 100%;
+        margin: auto;
     }
 
 
     .learn{
-        border: 2px solid green;
+       border: #D4C17F 2px solid;
         width: 100%;
         margin: auto;
         
     }
 
     .style{
-        border: 2px solid rgba(197, 30, 8, 0.753);
+       
         width: 100%;
         margin: auto;
         
     }
 
     .mail{
-        border: 2px solid rgb(2, 0, 128);
+        
         width: 100%;
         margin: auto;
        
     }
 
+    .footer{
+        width: 100%;
+        padding-top: 0px;
+    }
+
     .galery{
         padding: 0px;
+        width: 100%;
     }
 
     .title{
+        display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: auto;
         width: 100%;
-        margin: 0px;
         
+        border: 2px solid palevioletred;
+        width: 500px;
+        
+    }
+    .galery-title{
+        text-align: center;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill{
+        border: 2px solid palevioletred;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .maps{
@@ -545,18 +582,54 @@ li a:hover{
         display: none;
     }
 
-    .icons{
+    .iconss{
+        width: 100%;
         
     }
 
+    .images{
+        border: 2px solid rgb(247, 0, 255);
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .input{
+        width: 99%;
+    }
+
+    
+    .btn{
         width: 100%;
     }
 
-    .btnt{
-        width: 100%;
+    .content{
+        display: block;
     }
-    .btn{
+
+    .forma{
+        margin-left: auto;
+        margin-right: auto;
+        width:370px ;
+        border: 2px solid palevioletred;
+    }
+
+    .geo{
+        display: none;
+    }
+    
+    .text{
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid palevioletred;
+        width: 450px;
+    }
+
+    .box{
+        border: 2px solid rgb(170, 73, 9);
+    }
+    .title-text{
+        text-align: center;
         width: 100%;
     }
 }
@@ -564,22 +637,30 @@ li a:hover{
 /* 320px - 576px */
 @media screen and (max-width: 576px) {
 	.container{
-        width: 90%;
-    }
-
-    .iconss{
-        width: 90%;
+        width: auto;
     }
 
     .geo{
         display: none;
     }
+    .title{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        
+        
+        border: 2px solid palevioletred;
+        width: 360px;
 
 }
-
-.galery-title{
-    margin: auto;
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid palevioletred;
+    width: 360px;
 }
+
 
     
 
